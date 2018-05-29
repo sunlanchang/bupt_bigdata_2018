@@ -46,9 +46,8 @@
 
 ## 提取特征
 
-1. 提取已有的基本的特征
-1. 手工构造特征
-
+- 提取已有的基本的特征
+- 手工构造特征
 - 提取特征列利用pandas对时间特征的解析，分离出日、月、小时等特征列，
 
 | 特征列 |building|cat|day|hour|is_weekend|	loc_id|	month|weekday|
