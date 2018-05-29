@@ -7,7 +7,7 @@
 
 | **`Documentation`** |
 |-----------------|
-| [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.tensorflow.org/api_docs/) |
+| [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.bipt.edu.cn/) |
 
 
 # 北京邮电大学-数据挖掘竞赛-2018
@@ -22,6 +22,9 @@ Ubuntu 16.04
 Anaconda 5.1
 Python 3.6
 Jupyter lab 0.31.5
+| 环境      | 版本 |
+| ---    | ---    |
+| **Ubuntu**   | 16.04 | 
 
 ## 数据预处理
 
