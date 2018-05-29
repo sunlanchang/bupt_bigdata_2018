@@ -10,7 +10,7 @@
 | [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.bipt.edu.cn/) |
 
 
-# 北京邮电大学-数据挖掘竞赛-2018
+# 北京邮电大学-数据挖掘竞赛-2018（tensorflow版本）
 ## 流程图
 
 - 框架流程图
