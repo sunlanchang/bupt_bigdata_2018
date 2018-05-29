@@ -26,17 +26,13 @@
 | Python | 3.6 | pandas|
 | Jupyter lab | 0.31.5 | matplotlib|
 
-
-
-
-
-
-
-
-
-
 ## 数据预处理
+1. 合并1到10月所有csv文件
+2. 提取特征列
 
+| 特征列 |building|cat|day|hour|is_weekend|	loc_id|	month|weekday|
+| - | - | - | - | - | - | - | - | - |
+|特征列含义|建筑物编号|建筑物类别|日|小时|是否周末|地点ID|月|星期|
 
 ## 提取特征
 ## 选择模型
