@@ -22,6 +22,7 @@ Ubuntu 16.04
 Anaconda 5.1
 Python 3.6
 Jupyter lab 0.31.5
+
 | 环境      | 版本 |
 | ---    | ---    |
 | **Ubuntu**   | 16.04 | 
