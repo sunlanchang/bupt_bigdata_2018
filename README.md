@@ -26,7 +26,6 @@
 | Python | 3.6 |
 | Jupyter lab | 0.31.5 |
 
-
 | Python模块    |
 | ---      | 
 | tensorflow|
