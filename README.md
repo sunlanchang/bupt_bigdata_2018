@@ -19,20 +19,20 @@
 
 ## 环境
 
-| 环境      | 版本 |
-| ---    | ---    |
-| Ubuntu | 16.04 | 
-| Anaconda | 5.1 |
-| Python | 3.6 |
-| Jupyter lab | 0.31.5 |
+| 环境      | 版本 | Python模块    | 版本 |
+| ---    | ---    | ---      | --- |
+| Ubuntu | 16.04  | tensorflow | 1.8 |
+| Anaconda | 5.1 | numpy|
+| Python | 3.6 | pandas|
+| Jupyter lab | 0.31.5 | matplotlib|
 
-| Python模块    |
-| ---      | 
-| tensorflow|
-| sklearn|
-| pandas|
-| matplotlib|
-| numpy|
+
+
+
+
+
+
+| |
 
 
 
