@@ -26,9 +26,8 @@
 | Python | 3.6 |
 | Jupyter lab | 0.31.5 |
 
-使用到的Python模块
 
-| 环境      |
+| Python模块    |
 | ---      | 
 | tensorflow|
 | sklearn|
