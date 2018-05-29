@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://www.tensorflow.org/images/tf_logo_transp.png"><br><br>
+</div>
+
+-----------------
 # 北京邮电大学-数据挖掘竞赛-2018
 ## 流程图
 
@@ -22,3 +27,4 @@ Jupyter lab 0.31.5
 ## 模型评测
 ## 模型预测
 ## 其他常用linux命令
+## For more information
