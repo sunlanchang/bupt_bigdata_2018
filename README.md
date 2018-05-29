@@ -28,11 +28,13 @@
 
 使用到的Python模块
 
-- tensorflow
-- sklearn
-- pandas
-- matplotlib
-- numpy
+| 环境      |
+| ---      | 
+| tensorflow|
+| sklearn|
+| pandas|
+| matplotlib|
+| numpy|
 
 
 
