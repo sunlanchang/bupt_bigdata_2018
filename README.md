@@ -18,14 +18,18 @@
 ![流程图](picture/流程图.svg)
 
 ## 环境
-Ubuntu 16.04
-Anaconda 5.1
-Python 3.6
-Jupyter lab 0.31.5
 
 | 环境      | 版本 |
 | ---    | ---    |
-| **Ubuntu**   | 16.04 | 
+| **Ubuntu** | 16.04 | 
+| Anaconda | 5.1 |
+| Python | 3.6 |
+| Jupyter lab | 0.31.5 |
+
+
+
+
+
 
 ## 数据预处理
 
