@@ -7,13 +7,15 @@
 
 | **`Documentation`** |
 |-----------------|
-| [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.bipt.edu.cn/) |
+| [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](http://bigdata.bupt.edu.cn) |
 
 
 # 北京邮电大学-数据挖掘竞赛-2018（tensorflow版本）
 ## description
 
-利用GPU加速TensorFlow计算，快速迭代模型。
+本次比赛是由北京邮电大学、北京师范大学、中国农业大学在2018年5月21到5月27日联合举办，提供了脱敏后真实校园数据用于大赛分析，本次比赛旨在推进智慧校园中大数据分析和应用。
+
+本次比赛采用TensorFlow框架的High Level Api中DNN Regresor，利用GPU加速TensorFlow计算，快速迭代模型。
 
 ## 框架流程图
 
@@ -79,11 +81,15 @@
 - 采用支持cuda加速并且CPU并行计算的TensorFlow框架让模型迭代的速度有了明显的提升。训练`batch_size`大小为1千万，训练100次也不过用时不到一个小时。
 - 经过实际测试隐藏层为4层`[4096, 2048, 1024, 256]`的神经网络在GPU训练速度是CPU的30倍左右。
 
-## 参数选择
+## DNN超参选择
 
+DNN架构方面尝试了多种不同的架构，利用Tensorboard查看收敛速度，得到一个相对较好的架构（如上所示）
 
+- 受限于GPU显存只有4G，如果隐藏层神经元超过1万，显存溢出，程序无法执行。
+- 如果神经网络层数设计的太长同样会出现这个问题。
+- 只用三层隐藏层的DNN，隐藏层神经元设计成`[2048,1024,512]`，通过`tensorboard`发现，神经网络收敛的非常快，并且准确率和多一层的架构相差不超过5%。如下图所示：
 
-## 超参选择
+![](/picture/tensorboard.png)
 
 采用`tensorflow.estimator.DNNRegrasor()`默认参数。
 ```
