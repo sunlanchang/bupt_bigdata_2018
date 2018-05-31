@@ -64,13 +64,15 @@
 
 ### Linear Regrassor
 
-- 根据月份将数据可视化后（如下图所示），发现使用线性模型并不适合数据的拟合。
+- 根据月份将数据可视化后（如下图所示），发现使用线性模型并不适合数据的拟合，训练模型后RMSE值为1000左右也印证了这个结论。
 
 ![月份人数](picture/月份人数.png)
 
 ### SVM
 
-使用`sklearn.model_selection.train_test_split()`划分数据集为训练数据集和验证数据集，使用`sklearn.svm.SVC()`训练模型。
+- 使用`sklearn.model_selection.train_test_split()`划分数据集为训练数据集和验证数据集，使用`sklearn.svm.SVC()`训练模型。
+- 经过累计20小时的训练和预测数据，结果不是很好，RMSE值为800左右。
+- 利用`sklearn`的模型有明显的缺点，训练速度太慢，不能快速迭代模型是一个足够放弃这个框架的理由。
 
 ### DNN Regrasor
 
