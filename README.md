@@ -91,7 +91,7 @@ DNN架构方面尝试了多种不同的架构，利用Tensorboard查看收敛速
 
 ![](/picture/tensorboard.png)
 
-采用`tensorflow.estimator.DNNRegrasor()`默认参数。
+- 其余超参例如激活函数，学习率，优化算法等采用`tensorflow.estimator.DNNRegrasor()`默认参数。
 ```
 __init__(
     hidden_units,
