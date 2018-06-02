@@ -10,12 +10,12 @@
 | [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](http://bigdata.bupt.edu.cn) |
 
 
-# 北京邮电大学-数据挖掘竞赛-2018（tensorflow版本）
+# 北京邮电大学-数据挖掘竞赛-2018
 ## description
 
 本次比赛是由北京邮电大学、北京师范大学、中国农业大学在2018年5月21到5月27日联合举办，提供了脱敏后真实校园数据用于大赛分析，本次比赛旨在推进智慧校园中大数据分析和应用。
 
-本次比赛采用TensorFlow框架的High Level Api中DNN Regresor，利用GPU加速TensorFlow计算，快速迭代模型。
+本次比赛采用TensorFlow框架的High Level Api中DNN Regresor，利用GPU加速TensorFlow计算，快速迭代模型。代码解析详情见：https://github.com/sunlanchang/bupt_bigdata_2018/blob/master/bigdata_with_tensorflow.ipynb
 
 ## 框架流程图
 
@@ -23,12 +23,12 @@
 
 ## 环境
 
-| 环境      | 版本 | Python模块    | 版本 |
-| ---    | ---    | ---      | --- |
-| Ubuntu | 16.04  | tensorflow | 1.8 |
-| Anaconda | 5.1 | numpy|
-| Python | 3.6 | pandas|
-| Jupyter lab | 0.31.5 | matplotlib|
+| 环境        | 版本   | Python模块 | 版本 |
+| ----------- | ------ | ---------- | ---- |
+| Ubuntu      | 16.04  | tensorflow | 1.8  |
+| Anaconda    | 5.1    | numpy      |
+| Python      | 3.6    | pandas     |
+| Jupyter lab | 0.31.5 | matplotlib |
 
 ## 数据预处理
 
@@ -40,13 +40,13 @@
 
 合并的文件如下图所示,共252014行：
 
-|地点|时间|人数|
-|-|-|-|
-|12|2017-11-28 12|11878|
-|12|2017-11-20 12|11171|
-|12|2017-11-23 12|10740|
-|12|2017-11-21 12|10069|
-|...|...|...|
+| 地点 | 时间 | 人数 |
+| -- | -- | -- |
+| 12 | 2017-11-28 12 | 11878 |
+| 12 | 2017-11-20 12 | 11171 |
+| 12 | 2017-11-23 12 | 10740 |
+| 12 | 2017-11-21 12 | 10069 |
+| ...| ... | ... |
 
 ## 提取特征
 
