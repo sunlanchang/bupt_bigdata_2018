@@ -132,3 +132,5 @@ tmux new-session -t $name 按照名字创建session
 ```
 
 ## For more information
+
+> https://tensorflow.google.cn/
