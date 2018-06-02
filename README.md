@@ -15,7 +15,7 @@
 
 本次比赛是由北京邮电大学、北京师范大学、中国农业大学在2018年5月21到5月27日联合举办，提供了脱敏后真实校园数据用于大赛分析，本次比赛旨在推进智慧校园中大数据分析和应用。
 
-本次比赛采用TensorFlow框架的High Level Api中DNN Regresor，利用GPU加速TensorFlow计算，快速迭代模型。代码解析详情见：https://github.com/sunlanchang/bupt_bigdata_2018/blob/master/bigdata_with_tensorflow.ipynb
+本次比赛采用TensorFlow框架的High Level Api中DNN Regresor，利用GPU加速TensorFlow计算，快速迭代模型。大体的思路如下文所示，代码解析详情见：https://github.com/sunlanchang/bupt_bigdata_2018/blob/master/bigdata_with_tensorflow.ipynb
 
 ## 框架流程图
 
