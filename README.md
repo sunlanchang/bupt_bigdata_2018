@@ -129,6 +129,7 @@ __init__(
 
 ```
 tmux new-session -t $name 按照名字创建session
+tensorboard --logdir $your_path 开启tensorboard
 ```
 
 ## For more information
